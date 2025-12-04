@@ -36,36 +36,34 @@
         z-index: 9999;
         padding: 2rem;
         color: red;
+        font-family: monospace;
       }
     </style>
-    <!-- 
-      Using esm.sh for reliable browser-native ES module imports.
-      Downgraded to React 18 and stable libraries to ensure compatibility.
-    -->
-    <script type="importmap">
+  <script type="importmap">
 {
   "imports": {
-    "react": "https://esm.sh/react@18.2.0",
-    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3",
-    "framer-motion": "https://esm.sh/framer-motion@10.16.4",
-    "lucide-react": "https://esm.sh/lucide-react@0.344.0",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-    "react/": "https://aistudiocdn.com/react@^19.2.1/"
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
   }
 }
 </script>
-  </head>
+</head>
   <body>
     <div id="root"></div>
     <div id="error-overlay"></div>
+    <script type="module" src="/index.tsx"></script>
     <script>
-      // Global error handler to catch white-screen crashes
       window.addEventListener('error', function(event) {
         const overlay = document.getElementById('error-overlay');
         if (overlay) {
           overlay.style.display = 'block';
-          overlay.innerHTML = '<h1>Application Error</h1><pre>' + event.message + '</pre><p>Check console for details.</p>';
+          overlay.innerHTML = '<h1>Application Error</h1><p>' + event.message + '</p>';
         }
       });
     </script>
