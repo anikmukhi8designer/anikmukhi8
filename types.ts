@@ -7,10 +7,24 @@ export interface Project {
   id: string;
   title: string;
   category: string;
-  image: string; // URL to image
+  image: string;
   description: string;
   link?: string;
   year: string;
+}
+
+export interface ExperienceItem {
+  id: string;
+  company: string;
+  role: string;
+  period: string;
+  description: string;
+}
+
+export interface SkillGroup {
+  id: string;
+  category: string;
+  items: string[];
 }
 
 export interface SiteContent {
@@ -24,6 +38,8 @@ export interface SiteContent {
     socials: SocialLink[];
   };
   projects: Project[];
+  experience: ExperienceItem[];
+  skills: SkillGroup[];
   theme: {
     darkMode: boolean;
   };
@@ -33,7 +49,7 @@ export interface GitHubConfig {
   owner: string;
   repo: string;
   branch: string;
-  path: string; // e.g., 'content.json'
+  path: string;
   token: string;
 }
 

@@ -20,7 +20,7 @@ export const DEFAULT_CONTENT: SiteContent = {
       title: "Neon Horizon",
       category: "Web Design",
       year: "2023",
-      image: "https://picsum.photos/800/600?random=1",
+      image: "https://images.unsplash.com/photo-1492551557933-34265f7af79e?q=80&w=2940&auto=format&fit=crop",
       description: "A futuristic landing page for a tech conference.",
       link: "#"
     },
@@ -29,7 +29,7 @@ export const DEFAULT_CONTENT: SiteContent = {
       title: "Abstract Shapes",
       category: "Branding",
       year: "2023",
-      image: "https://picsum.photos/800/800?random=2",
+      image: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2940&auto=format&fit=crop",
       description: "Brand identity for a modern architecture firm.",
       link: "#"
     },
@@ -38,7 +38,7 @@ export const DEFAULT_CONTENT: SiteContent = {
       title: "E-Commerce App",
       category: "Product Design",
       year: "2022",
-      image: "https://picsum.photos/800/1000?random=3",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
       description: "Mobile application redesign for a fashion retailer.",
       link: "#"
     },
@@ -47,9 +47,37 @@ export const DEFAULT_CONTENT: SiteContent = {
       title: "Minimalist Portfolio",
       category: "Development",
       year: "2022",
-      image: "https://picsum.photos/800/600?random=4",
+      image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2855&auto=format&fit=crop",
       description: "A clean portfolio template built with Next.js.",
       link: "#"
+    }
+  ],
+  experience: [
+    {
+      id: "1",
+      company: "Google",
+      role: "Senior Product Designer",
+      period: "2021 — Present",
+      description: "Leading design systems and interaction patterns for consumer products."
+    },
+    {
+      id: "2",
+      company: "Spotify",
+      role: "Product Designer",
+      period: "2018 — 2021",
+      description: "Contributed to the mobile app redesign and web player experience."
+    }
+  ],
+  skills: [
+    {
+      id: "1",
+      category: "Design",
+      items: ["Figma", "Prototyping", "Motion Design", "UI/UX"]
+    },
+    {
+      id: "2",
+      category: "Development",
+      items: ["React", "TypeScript", "TailwindCSS", "Next.js"]
     }
   ],
   theme: {
