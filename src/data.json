@@ -206,65 +206,6 @@
       ]
     },
     {
-      "id": "fintech-dashboard-2024",
-      "title": "Nova Financial",
-      "client": "Nova Inc.",
-      "roles": [
-        "Product Design",
-        "Design System"
-      ],
-      "description": "A comprehensive dashboard for modern financial tracking.",
-      "year": 2024,
-      "heroImage": "https://picsum.photos/id/1/1200/800",
-      "thumb": "https://picsum.photos/id/1/800/600",
-      "tags": [
-        "Fintech",
-        "SaaS",
-        "Dashboard"
-      ],
-      "link": "#",
-      "published": true,
-      "content": [
-        {
-          "id": "1",
-          "type": "h1",
-          "content": "The Challenge"
-        },
-        {
-          "id": "2",
-          "type": "paragraph",
-          "content": "Nova Financial needed a complete overhaul of their legacy tracking system. The goal was to reduce the time it takes for users to analyze their monthly spend by 50%."
-        },
-        {
-          "id": "3",
-          "type": "image",
-          "content": "https://picsum.photos/id/2/800/600",
-          "caption": "Initial wireframes and sketches"
-        },
-        {
-          "id": "4",
-          "type": "h2",
-          "content": "Design System"
-        },
-        {
-          "id": "5",
-          "type": "paragraph",
-          "content": "We established a strict 8pt grid system and a color palette inspired by Swiss typography. Typography plays a huge role in the readability of complex data sets."
-        },
-        {
-          "id": "6",
-          "type": "image",
-          "content": "https://picsum.photos/id/3/800/600",
-          "caption": "Final UI screens"
-        },
-        {
-          "id": "7",
-          "type": "quote",
-          "content": "The new dashboard has completely transformed how our users interact with their finances."
-        }
-      ]
-    },
-    {
       "id": "ecom-mobile-2023",
       "title": "Lumina App",
       "client": "Lumina Fashion",
@@ -535,5 +476,5 @@
       "label": "hello@mukhianik.com"
     }
   ],
-  "lastUpdated": "2025-12-04T10:49:05.187Z"
+  "lastUpdated": "2025-12-04T11:25:00.454Z"
 }
