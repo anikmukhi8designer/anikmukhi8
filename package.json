@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "react": "^19.2.1",
-    "lucide-react": "^0.555.0",
-    "react-dom": "^19.2.1",
-    "framer-motion": "^12.23.25",
-    "react-router-dom": "^7.10.0"
+    "react-router-dom": "6.22.3",
+    "framer-motion": "10.16.4",
+    "lucide-react": "0.344.0",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
